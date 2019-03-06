@@ -1,0 +1,28 @@
+<html>
+    <head>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    	<link href='style.css' rel='stylesheet' type='text/css'>
+        <script src="d3.v3.js" charset="utf-8"></script>   
+    </head>
+    <body>
+
+    	<nav id="dashTitle"><p>2019 Sales Dashboard</p></nav>
+
+    	<div id="topChart" style="float: left; width: 800px;">
+			<h2 style="margin-left:50px; float:left;">Sales by Month (colored by profit)</h1>				
+			<svg id="barChartLegend"></svg>
+	    	<svg id="barChart"></svg>
+	    </div>
+
+	    <div id="bottomLeft" style="float:left; width: 350px; margin-left: 50px;"></div>
+
+	    <div id="bottomRight" style="float:left; width: 400px;">
+	    	<h2>Sales by State</h2>	    	    		
+	    </div>
+   
+    <script src="functions.js"></script>
+    <script src="map.js"></script>
+    <script src="top-bar.js"></script>
+    <script src="sparklines.js"></script>
+  </body>
+</html>
