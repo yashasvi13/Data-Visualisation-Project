@@ -1,3 +1,4 @@
+//bar chart
 function buildBar(ds) {
   var barTooltip = d3
     .select("body")
